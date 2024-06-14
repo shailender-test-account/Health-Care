@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "hero": "url('./src/assets/dark-hero-1.jpg')"
+        "hero": "url('./src/assets/team-doctors-standing-together-hospital-premises.jpg')"
       },
 
       animation:{
