@@ -4,6 +4,7 @@ import logo from "../assets/MediCare+ (2).png";
 import { easeInOut, motion } from "framer-motion";
 
 
+
 function Home() {
 
 
@@ -21,7 +22,7 @@ function Home() {
 
 
 
-            <div className='w-full  min-h-[700px] bg-hero bg-fixed  bg-cover bg-no-repeat bg-center relative '>
+            <div className={`w-full  min-h-[700px]  bg-hero bg-fixed  bg-cover bg-no-repeat bg-center relative `}>
 
                 <img className='  absolute top-[5%]  left-[10%]' src={logo} alt="logo" />
 

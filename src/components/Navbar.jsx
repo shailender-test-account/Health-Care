@@ -56,7 +56,7 @@ function Navbar() {
         <div className=' relative'>
             {/* <!-- component --> */}
 
-            <motion.nav animate={hidden ? "visible" : "hidden"} variants={variants} transition={{ duration: 1, ease: "linear", type: "spring" }} className="relative px-4 py-4 flex justify-between items-center  bg-transparent w-[100%] h-[100%] z-10">
+            <motion.nav animate={hidden ? "visible" : "hidden"} variants={variants} transition={{ duration: 1, ease: "linear", type: "spring" }} className="relative px-4 py-4 flex justify-between items-center   w-[100%] h-[100%] z-10">
 
 
                 <ul className="hidden absolute top-1/2 left-1/4 transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
@@ -95,20 +95,20 @@ function Navbar() {
                     <div>
                         <ul>
                             <li className="mb-1 relative">
-                                <a className="block p-4 text-sm font-semibold text-[#ffffff] hover:bg-blue-50 hover:text-blue-600 rounded" href="/">Home</a>
+                                <a className="block p-4 text-sm font-semibold text-[#f95759] hover:bg-blue-50 hover:text-blue-600 rounded" href="/">Home</a>
 
                             </li>
                             <li className="mb-1">
-                                <a className="block p-4 text-sm font-semibold text-[#ffffff] hover:bg-blue-50 hover:text-blue-600 rounded" href="/about">About Us</a>
+                                <a className="block p-4 text-sm font-semibold text-[#f95759] hover:bg-blue-50 hover:text-blue-600 rounded" href="/about">About Us</a>
                             </li>
                             <li className="mb-1">
-                                <a className="block p-4 text-sm font-semibold text-[#ffffff] hover:bg-blue-50 hover:text-blue-600 rounded" href="/services">Services</a>
+                                <a className="block p-4 text-sm font-semibold text-[#f95759] hover:bg-blue-50 hover:text-blue-600 rounded" href="/services">Services</a>
                             </li>
                             <li className="mb-1">
-                                <a className="block p-4 text-sm font-semibold text-[#ffffff] hover:bg-blue-50 hover:text-blue-600 rounded" href="/pricing">Pricing</a>
+                                <a className="block p-4 text-sm font-semibold text-[#f95759] hover:bg-blue-50 hover:text-blue-600 rounded" href="/pricing">Pricing</a>
                             </li>
                             <li className="mb-1">
-                                <a className="block p-4 text-sm font-semibold text-[#ffffff] hover:bg-blue-50 hover:text-blue-600 rounded" href="/contact">Contact</a>
+                                <a className="block p-4 text-sm font-semibold text-[#f95759] hover:bg-blue-50 hover:text-blue-600 rounded" href="/contact">Contact</a>
                             </li>
                         </ul>
                     </div>
