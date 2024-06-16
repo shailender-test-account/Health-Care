@@ -22,7 +22,7 @@ function Services() {
 
 
                 </div>
-                <div className='flex w-[100%] h-[500px] p-10 mt-0 '>
+                <div className='flex w-[100%]  min-h-[600px] flex-wrap  gap-20  md:gap-10 justify-center'>
 
                     <Servicecards
                         title="Dental Care"

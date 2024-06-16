@@ -9,8 +9,8 @@ import { ImCross } from "react-icons/im";
 function Detail() {
     return (
         <div>
-            <div className='w-full min-h-[700px] bg-[#0da8bc] relative'>
-                <div className='w-[100] h-[100px] bg-[#ffffff] absolute top-0 left-0 right-0 border-2 border-[#0da8bc] flex justify-center items-center text-[20px] font-serif font-bold shadow-lg'>
+            <div className='w-full min-h-[900px]  bg-[#0da8bc] relative my-10'>
+                <div className='w-[100] h-[100px] bg-[#ffffff]  flex justify-center items-center text-[20px] font-serif font-bold shadow-lg'>
                     <h1>
                         Clinic With Innovations
                     </h1>
@@ -18,7 +18,7 @@ function Detail() {
                 </div>
 
 
-                <div className='w-full min-h-[600px] absolute bottom-0 left-0 right-0 flex justify-center items-center gap-10 flex-wrap'>
+                <div className='w-full  min-h-[820px] py-10 gap-10  flex  justify-center items-center  gap-x-10 flex-wrap'>
                     <Detailcard
                         title="Qualified Doctors"
                         icon={<FaUserDoctor />}

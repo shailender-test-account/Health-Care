@@ -27,10 +27,10 @@ function Servicecards(props) {
 
 
     return (
-        <div className='w-[400px] h-[500px]  shadow-lg m-10 relative'>
+        <div className='w-full md:w-[300px] h-[500px]  shadow-lg  relative'>
             
-                <div className='w-[100px] h-[100px] bg-[#ffffff] flex justify-center absolute  bottom-[-10%] left-[35%] shadow-lg items-center rounded-full'>
-                    <motion.div initial="hidden" whileHover={"visible"} transition={{duration:1 , ease:"linear" , type:"spring"}} variants={variant} className='w-[70px] h-[70px] bg-[#0da8bc] border-2 border-[#0da8bc] flex justify-center items-center rounded-full'>
+                <div className='w-[100px]  md:w-[100px] md:h-[100px] md:rounded-full h-[100px] bg-[#ffffff] flex justify-center absolute md:left-[35%]  bottom-[-10%] left-[40%] shadow-lg items-center rounded-full '>
+                    <motion.div initial="hidden" whileHover={"visible"} transition={{duration:1 , ease:"linear" , type:"spring"}} variants={variant} className='w-[70px] h-[70px] md:rounded-full bg-[#0da8bc] border-2 border-[#0da8bc] flex justify-center items-center rounded-full'>
                        {props.icon}
                     </motion.div>
 

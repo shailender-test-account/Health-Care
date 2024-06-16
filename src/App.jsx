@@ -19,7 +19,7 @@ function App() {
 
 
       <Home />
-      <div className='w-[full] min-h-[300px] flex justify-center items-center flex-wrap '>
+      <div className='w-full gap-5 min-h-[300px] md:gap-0 flex justify-center items-center flex-wrap '>
         <Card
           title="Professional staff"
         />
