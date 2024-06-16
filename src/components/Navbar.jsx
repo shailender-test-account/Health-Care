@@ -61,25 +61,25 @@ function Navbar() {
 
                 <ul className="hidden absolute top-1/2 left-1/4 transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
                     <li >
-                        <motion.a animate={hidden ? "visible" : "hidden"} variants={item} className="text-sm  text-[#ffffff] transition-all duration-[0.5s]  ease-linear hover:text-[#0da8bc] font-[300] text-[15px] " href="/">Home</motion.a>
+                        <motion.a animate={hidden ? "visible" : "hidden"} variants={item} className="text-sm  text-[#0da8bc] transition-all duration-[0.5s]  ease-linear hover:text-[#0da8bc] font-[300] text-[15px] " href="/">Home</motion.a>
                         <hr className='w-[100%] h-[3px] bg-[#0da8bc] border-none rounded-md font-bold' />
                     </li>
 
                     <li >
-                        <motion.a animate={hidden ? "visible" : "hidden"} variants={item} className="text-sm  text-[#ffffff] transition-all duration-[0.5s]  ease-linear hover:text-[#0da8bc] font-[300] text-[15px] " href="/">About Us</motion.a>
+                        <motion.a animate={hidden ? "visible" : "hidden"} variants={item} className="text-sm  text-[#0da8bc] transition-all duration-[0.5s]  ease-linear hover:text-[#0da8bc] font-[300] text-[15px] " href="/">About Us</motion.a>
                         <hr className='w-[100%] h-[3px] bg-[#0da8bc] border-none rounded-md font-bold' />
                     </li>
 
                     <li >
-                        <motion.a animate={hidden ? "visible" : "hidden"} variants={item} className="text-sm  text-[#ffffff] transition-all duration-[0.5s]  ease-linear hover:text-[#0da8bc] font-[300] text-[15px] " href="/">Services</motion.a>
+                        <motion.a animate={hidden ? "visible" : "hidden"} variants={item} className="text-sm  text-[#0da8bc] transition-all duration-[0.5s]  ease-linear hover:text-[#0da8bc] font-[300] text-[15px] " href="/">Services</motion.a>
                         <hr className='w-[100%] h-[3px] bg-[#0da8bc] border-none rounded-md font-bold' />
                     </li>
                     <li >
-                        <motion.a animate={hidden ? "visible" : "hidden"} variants={item} className="text-sm  text-[#ffffff] transition-all duration-[0.5s]  ease-linear hover:text-[#0da8bc] font-[300] text-[15px] " href="/">News</motion.a>
+                        <motion.a animate={hidden ? "visible" : "hidden"} variants={item} className="text-sm  text-[#0da8bc] transition-all duration-[0.5s]  ease-linear hover:text-[#0da8bc] font-[300] text-[15px] " href="/">News</motion.a>
                         <hr className='w-[100%] h-[3px] bg-[#0da8bc] border-none rounded-md font-bold' />
                     </li>
                     <li >
-                        <motion.a animate={hidden ? "visible" : "hidden"} variants={item} className="text-sm  text-[#ffffff] transition-all duration-[0.5s]  ease-linear hover:text-[#0da8bc] font-[300] text-[15px] " href="/">Contact Us</motion.a>
+                        <motion.a animate={hidden ? "visible" : "hidden"} variants={item} className="text-sm  text-[#0da8bc] transition-all duration-[0.5s]  ease-linear hover:text-[#0da8bc] font-[300] text-[15px] " href="/">Contact Us</motion.a>
                         <hr className='w-[100%] h-[3px] bg-[#0da8bc] border-none rounded-md font-bold' />
                     </li>                </ul>
                 <a className="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-gray-50 hover:bg-gray-100 text-sm text-gray-900 font-bold  rounded-xl transition duration-200" href="#">Sign In</a>
@@ -87,7 +87,7 @@ function Navbar() {
             </motion.nav>
             <div className="navbar-menu relative z-50 hidden">
                 <div className="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
-                <nav className="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+                <nav className="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-[#f95759] border-r overflow-y-auto">
                     <div className="flex items-center mb-8">
 
 

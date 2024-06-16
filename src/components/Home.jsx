@@ -34,12 +34,12 @@ function Home() {
                 <Navbar />
 
                 <motion.div className='text-[2rem]
-                 md:text-[2.5rem] text-justify font-serif text-[#ffffff] absolute md:bottom-[50%]  bottom-[60%] left-[10%] md:left-[20%]  ' variants={variants} initial="hidden" whileInView={"visible"} viewport={{ once: true }} transition={{ duration: 1, ease: "easeInOut", type:"spring"}}>
+                 md:text-[2.5rem] text-justify font-serif text-[#0da8bc] absolute md:bottom-[50%]  bottom-[60%] left-[10%] md:left-[20%]  ' variants={variants} initial="hidden" whileInView={"visible"} viewport={{ once: true }} transition={{ duration: 1, ease: "easeInOut", type:"spring"}}>
                     Welcome To Medi <span className='text-[#f95759]'>Care+</span><br /> Clinic
                 </motion.div>
                 <div className='min-w-[400px] min-h-[200px]  absolute bottom-[25%] md:bottom-[20%] left-[10%] md:left-[20%] flex flex-col gap-5 text-justify'>
                     <motion.h2 className='text-[1.5rem] text-justify font-serif font-[400] text-[#0da8bc]' initial="hidden" whileInView={"visible"} viewport={{ once: true }} variants={variants} transition={{ duration: 1.5, ease: "easeInOut" }}>Best Specalists</motion.h2>
-                    <motion.p className=' text-[#ffffff]  max-w-[400px]  font-serif  flex justify-center items-center text-[15px] md:text-[20px]' initial="hidden" whileInView={"visible"} viewport={{ once: true }} variants={variants} transition={{ duration: 2, ease: "easeInOut" }}>We are on the leading edge of cancer care. Providing the full continuum of cancer treatments and supportive care services in a single convenient location.</motion.p>
+                    <motion.p className=' text-[black]  max-w-[400px]  font-serif  flex justify-center items-center text-[15px] md:text-[20px]' initial="hidden" whileInView={"visible"} viewport={{ once: true }} variants={variants} transition={{ duration: 2, ease: "easeInOut" }}>We are on the leading edge of cancer care. Providing the full continuum of cancer treatments and supportive care services in a single convenient location.</motion.p>
                 </div>
 
                 <div className=' absolute bottom-[10%] md:bottom-[5%] left-[18%] l md:left-[20%] w-500px min-h-[100px] flex justify-center   items-center gap-3 md:gap-10 flex-wrap'>
