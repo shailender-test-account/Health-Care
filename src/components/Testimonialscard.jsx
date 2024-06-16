@@ -69,7 +69,7 @@ function CarouselTestimonial() {
             <li>
               <div className="h-full w-full">
                 {/*                    <!-- Start Testimonial --> */}
-                <div className="h-full overflow-hidden rounded bg-white text-slate-500 shadow-2xl shadow-slate-200">
+                <div className="h-full  rounded bg-white text-slate-500 shadow-2xl shadow-slate-200">
                   <div className="relative p-6">
                     <figure className="relative z-10">
                       <blockquote className="p-6 text-lg leading-relaxed">
